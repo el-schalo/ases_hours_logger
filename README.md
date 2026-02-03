@@ -53,19 +53,19 @@ To run the script, follow these steps:
 
 3. Connect to your employers VPN if necessary.
 
-4. Run the script. You can do this by giving the username and password as command line arguments:
-
-    ```bash
-    python3 hour_logger.py "ASES_USERNAME" "ASES_PASSWORD"
-    ```
-
-    Or by using the ASES credentials or credentials stored in your KeePass. Be sure to configure the setting parameters `USE_ASES_CREDENTIALS`, `ASES_USERNAME`, `ASES_PASSWORD`, `USE_KEEPASS_CREDENTIALS`, `KEEPASS_DATABASE_FILE_PATH` and `KEEPASS_ENTRY_TITLE` accordingly. After this, run the following command:
+4. Run the script:
 
     ```bash
     python3 hour_logger.py
     ```
 
-    You will be asked to enter then the KeePass master password.
+    In case you choosed neither  `USE_ASES_CREDENTIALS` nor `USE_KEEPASS_CREDENTIALS` in your `settings.json`, you can pass your ASES username and password as command line arguments:
+
+    ```bash
+    python3 hour_logger.py "ASES_USERNAME" "ASES_PASSWORD"
+    ```
+
+    If you "use KeePass Credentials", you will be asked to enter then the KeePass master password.
 
 5. See the magic happen 🧙.
 
@@ -73,4 +73,4 @@ To run the script, follow these steps:
 
 Feel free to customize the settings to match your specific needs. If you encounter any issues, consider adjusting the waiting times or reaching out for support. Happy logging!
 
-<a href='https://ko-fi.com/jdmbg' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+<a href='https://ko-fi.com/jdmbg' target='_blank'>☕ Buy Me a Coffee at ko-fi.com</a>
